@@ -1,7 +1,9 @@
-name = "anime"
+name = "animepahe-worker"
 main = "src/worker.ts"
-compatibility_date = "2023-11-07"
-env = { }
+compatibility_date = "2025-08-11"
 
-[triggers]
-crons = [ ]
+# Optional — enable modules syntax if needed
+# type = "javascript"
+
+[vars]
+API_URL = "https://example.com"  # If your Worker needs env vars
